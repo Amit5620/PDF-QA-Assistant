@@ -7,7 +7,7 @@ from retriever import get_retriever
 from generation import generate_answer
 
 st.set_page_config(page_title="PDF Q&A with RAG", layout="wide")
-st.title("📄 PDF Q&A Assistant powered")
+st.title("📄 PDF Q&A Assistant")
 
 # Session state
 if "retriever" not in st.session_state:
