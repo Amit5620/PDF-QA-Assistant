@@ -1,0 +1,11 @@
+# Python version required 3.10
+
+streamlit
+langchain
+langchain-community
+langchain-huggingface
+huggingface-hub
+python-dotenv
+PyPDF2
+faiss-cpu
+sentence-transformers
