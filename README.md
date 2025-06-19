@@ -1,20 +1,20 @@
-# 🤖📄 PDF-QA Assistant
+# 📄 PDF-QA Assistant
 
 An intelligent PDF Question Answering app built using **Streamlit**, powered by **LangChain**, **FAISS**, and Hugging Face models. Just upload a PDF, ask any question, and get accurate, context-aware answers — instantly.
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 
-- 📄 Upload and process PDF documents
-- ✂️ Automatically chunk large texts
-- 🔎 Retrieve relevant context using **vector similarity + MMR**
-- 💬 Generate precise answers via **LLaMA 3.1 - 8B**
-- 🖥️ Beautiful and interactive UI with Streamlit
+-  Upload and process PDF documents
+-  Automatically chunk large texts
+-  Retrieve relevant context using **vector similarity + MMR**
+-  Generate precise answers via **LLaMA 3.1 - 8B**
+-  Beautiful and interactive UI with Streamlit
 
 ---
 
-## 🧰 Tech Stack & Model Overview
+##  Tech Stack & Model Overview
 
 | Component         | Description / Model Used |
 |------------------|---------------------------|
@@ -29,13 +29,13 @@ An intelligent PDF Question Answering app built using **Streamlit**, powered by 
 
 ---
 
-## 🐍 Python Version
+##  Python Version
 
 This project requires **Python 3.10**.
 
 ---
 
-## 📦 Required Libraries
+##  Required Libraries
 
 ```bash
 streamlit
@@ -51,26 +51,26 @@ sentence-transformers
 
 ---
 
-## 🛠️ Local Setup Instructions
+##  Local Setup Instructions
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 ```bash
 git clone https://github.com/Amit5620/PDF-QA-Assistant.git
 cd PDF-QA-Assistant
 ```
 
-### 2️⃣ Create a Virtual Environment
+### Create a Virtual Environment
 ```bash
 python3.10 -m venv venv
 venv\Scripts\activate
 ```
 
-### 3️⃣ Install Dependencies
+### Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Set Hugging Face API Key
+### Set Hugging Face API Key
 ```bash
 touch .env
 ```
@@ -78,7 +78,7 @@ HUGGINGFACEHUB_ACCESS_TOKEN=your_huggingface_api_token
 You can generate your token here: https://huggingface.co/settings/tokens
 
 
-### 5️⃣ Run the Application
+### Run the Application
 ```bash
 streamlit run app.py
 ```
